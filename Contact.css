@@ -13,7 +13,6 @@
   min-height: 1475px;
   margin-top: 60px;
   margin-bottom: 39px;
-  height: auto;
 }
 
 .u-section-2 .u-tab-link-1 {
@@ -102,9 +101,16 @@
 }
 
 .u-section-2 .u-custom-html-1 {
-  min-height: 1305px;
+  min-height: 751px;
+  height: auto;
   width: 1080px;
   margin: 0;
+}
+
+.u-section-2 .u-image-1 {
+  height: 818px;
+  margin-top: 48px;
+  margin-bottom: 0;
 }
 
 .u-section-2 .u-tab-pane-2 {
@@ -187,7 +193,6 @@
 
 .u-section-2 .u-custom-html-7 {
   min-height: 1305px;
-  height: auto;
   width: 1080px;
   margin: 0;
 }
@@ -249,8 +254,11 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-2 .u-custom-html-1 {
+  .u-section-2 .u-tabs-1 {
     height: auto;
+  }
+
+  .u-section-2 .u-custom-html-1 {
     width: 880px;
   }
 
@@ -280,6 +288,7 @@
   }
 
   .u-section-2 .u-custom-html-7 {
+    height: auto;
     width: 880px;
   }
 
